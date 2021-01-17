@@ -29,4 +29,4 @@ def create_bucket(bucket_name, region=None):
         logging.error(e)
         return False
     return True
-create_bucket("databricksdemo4","ap-south-1")
+create_bucket("akshayadatabricksdemo11234","eu-central-1")

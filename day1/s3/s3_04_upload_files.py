@@ -1,6 +1,8 @@
 import logging
 import boto3
+
 from botocore.exceptions import ClientError
+from ..package import util
 
 
 def upload_file(file_name, bucket, object_name=None):
@@ -24,4 +26,8 @@ def upload_file(file_name, bucket, object_name=None):
         logging.error(e)
         return False
     return True
-upload_file("student.json","<<bucket-name>>")
+#bucket_name = "akshayadatabricksdemo11234"
+#file= util.get_data_path("student.json")
+#upload_file(file,bucket_name)
+
+#upload_file("file","<<bucket-name>>")

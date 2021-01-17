@@ -10,4 +10,5 @@ def copy_to_bucket(bucket_from_name, bucket_to_name, file_name):
     }
     s3_resource.Object(bucket_to_name, file_name).copy(copy_source)
 
-copy_to_bucket("databricksdemo5", "databricksdemo3", "demo.txt")
+copy_to_bucket("<<From_Bucket>>", "<To_Bucket>", "<<Key>>")
+

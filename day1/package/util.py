@@ -1,5 +1,8 @@
-APP = "file:////c:/aws-data-bricks/day1"
-DATA_PATH = "/data"
+#APP = "file:////c:/aws-data-bricks/day1"
+
+APP= "file:////C:/Users/Administrator/new_code/aws-databricks/day1"
+
+DATA_PATH = "data"
 OUTPUT_PATH = "/output"
 
 def get_data_path(filename):

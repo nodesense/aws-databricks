@@ -15,7 +15,7 @@ print (ACCESS_KEY_ID)
 print (SECRET_ACCESS_KEY)
 
 def get_access_key():
-    return ACCESS_cd KEY_ID
+    return  ACCESS_KEY_ID
 
 def get_access_secret(): 
     return SECRET_ACCESS_KEY
