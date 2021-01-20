@@ -23,3 +23,4 @@ df = spark.createDataFrame(data=data, schema = columns)
 df.printSchema()
 
 df.show()
+
